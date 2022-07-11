@@ -173,6 +173,16 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
+.container-team {
+  width: 1600px;
+  height: 648px;
+}
+.list-team {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  gap: 30px;
+}
 .nav-agency-portfolio {
   font-family: "Roboto";
   font-style: normal;

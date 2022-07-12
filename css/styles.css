@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .body {
   font-family: "Roboto", sans-serif;
   font-family: "Raleway", sans-serif;
@@ -163,6 +168,11 @@
   display: flex;
   gap: 30px;
 }
+/* NASZ ZESPÓŁ */
+.container-team {
+  width: 1600px;
+  height: 648px;
+}
 .team {
   font-family: "Roboto";
   font-style: normal;
@@ -173,10 +183,7 @@
   letter-spacing: 0.03em;
   color: #212121;
 }
-.container-team {
-  width: 1600px;
-  height: 648px;
-}
+
 .list-team {
   list-style: none;
   text-decoration: none;
@@ -279,4 +286,24 @@
 
 .header {
   display: flex;
+}
+.team-member {
+  width: 270px;
+  height: 368px;
+  margin-left: 30px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.img-team {
+  width: 270px;
+  height: 260px;
+  height: auto;
+  display: block;
+}
+
+.card-image.no-gap {
+  display: block;
 }

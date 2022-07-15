@@ -16,7 +16,6 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-left: 215px;
-  margin-top: 24px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -232,6 +231,12 @@
   letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
+}
+.portfolio-menu-container {
+  height: 1360px;
+  width: 1170px;
+  left: 215px;
+  top: 174px;
 }
 .portfolio-menu:hover .portfolio-menu:focus .figcaption-name {
   font-family: "Roboto";

@@ -16,6 +16,7 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-left: 215px;
+  margin-top: 24px;
 }
 .logo-footer {
   font-family: "Raleway", sans-serif;
@@ -25,7 +26,6 @@
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
-  margin-bottom: 20px;
 }
 .nav-agency {
   font-family: "Roboto";
@@ -241,6 +241,9 @@
   line-height: 19px;
   letter-spacing: 0.03em;
 }
+.figcaption-name {
+  margin-top: 30px;
+}
 .figcaption-role {
   font-family: "Roboto";
   font-style: normal;
@@ -249,11 +252,13 @@
   line-height: 19px;
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 10px;
 }
 .list {
   list-style: none;
   text-decoration: none;
   display: flex;
+  margin-top: 32px;
 }
 .list-lorem {
   list-style: none;
@@ -323,6 +328,8 @@
   border-radius: nullpx;
   display: flex;
   margin-left: 215px;
+  margin-top: 60px;
+  margin-bottom: 20px;
   list-style: none;
   text-decoration: none;
   flex-direction: column;
@@ -345,6 +352,7 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: rgba(255, 255, 255, 1);
+  margin-top: 20px;
 }
 .mail-phone {
   padding-top: 9px;

@@ -25,6 +25,7 @@
   line-height: 31px;
   letter-spacing: 0.03em;
   text-decoration: none;
+  margin-bottom: 20px;
 }
 .nav-agency {
   font-family: "Roboto";
@@ -156,6 +157,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 .container-duties {
   width: 1170px;
@@ -182,14 +184,17 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 .list-team {
   list-style: none;
   text-decoration: none;
   display: flex;
+  margin-left: 215px;
   gap: 30px;
 }
+
 .nav-agency-portfolio {
   font-family: "Roboto";
   font-style: normal;
@@ -290,7 +295,6 @@
 .team-member {
   width: 270px;
   height: 368px;
-  margin-left: 30px;
   text-align: center;
   background-color: white;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -306,4 +310,42 @@
 
 .card-image.no-gap {
   display: block;
+}
+.container-footer {
+  height: 252px;
+  width: 1600px;
+  background: #2f303a;
+  display: flex;
+}
+.footer-list {
+  height: 81px;
+  width: 246px;
+  border-radius: nullpx;
+  display: flex;
+  margin-left: 215px;
+  list-style: none;
+  text-decoration: none;
+  flex-direction: column;
+}
+.nav-mail-footer {
+  list-style: none;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.nav-phone-footer {
+  list-style: none;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.adress-footer {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.mail-phone {
+  padding-top: 9px;
 }

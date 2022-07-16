@@ -237,6 +237,13 @@
   width: 1170px;
   left: 215px;
   top: 174px;
+  margin-top: 94px;
+}
+.buttons-portfolio-menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
 .portfolio-menu:hover .portfolio-menu:focus .figcaption-name {
   font-family: "Roboto";

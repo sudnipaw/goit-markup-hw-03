@@ -236,12 +236,16 @@
   letter-spacing: 0.03em;
   font-size: 16px;
 }
+.portfolio-menu:hover {
+  background-color: rgba(33, 150, 243, 1);
+}
 .portfolio-menu-container {
   height: 1360px;
   width: 1170px;
   left: 215px;
   top: 174px;
   margin-top: 94px;
+  margin-left: 215px;
 }
 .buttons-portfolio-menu {
   list-style: none;
@@ -249,13 +253,13 @@
   justify-content: center;
   gap: 8px;
 }
-.portfolio-menu:hover .portfolio-menu:focus .figcaption-name {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
+.portfolio-img {
+  display: flex;
+  list-style: none;
+  margin-top: 34px;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
 }
 .figcaption-name {
   margin-top: 30px;
@@ -293,6 +297,7 @@
   line-height: 36px;
   letter-spacing: 0.06em;
   color: #212121;
+  padding: 0px 20px;
 }
 .portfolio-figcaption-role {
   font-family: "Roboto";
@@ -302,6 +307,7 @@
   line-height: 30px;
   letter-spacing: 0.03em;
   color: #757575;
+  padding: 0px 20px;
 }
 
 .container {

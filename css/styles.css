@@ -241,7 +241,7 @@
 }
 .portfolio-menu-container {
   height: 1360px;
-  width: 1170px;
+  width: 1180px;
   left: 215px;
   top: 174px;
   margin-top: 94px;
@@ -252,14 +252,15 @@
   display: flex;
   justify-content: center;
   gap: 8px;
+  padding-bottom: 34px;
 }
 .portfolio-img {
   display: flex;
   list-style: none;
-  margin-top: 34px;
+  margin: 0px;
+  padding: 0px;
   flex-wrap: wrap;
   gap: 30px;
-  align-items: center;
 }
 .figcaption-name {
   margin-top: 30px;
@@ -273,6 +274,11 @@
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 10px;
+}
+.figcaption-box {
+  border: 1px solid rgba(238, 238, 238, 1);
+  margin: 0px;
+  padding: 0px;
 }
 .list {
   list-style: none;

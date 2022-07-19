@@ -338,11 +338,8 @@
   height: auto;
   display: block;
 }
-
-.card-image.no-gap {
-  display: block;
-}
 .container-footer {
+  height: 252px;
   width: 1600px;
   background: #2f303a;
   display: flex;

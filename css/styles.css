@@ -131,8 +131,6 @@
   text-transform: uppercase;
 }
 .container-lorem-ipsum {
-  width: 1170px;
-  height: 101px;
   margin: 94px 215px 94px 215px;
 }
 
@@ -160,7 +158,6 @@
 }
 .container-duties {
   width: 1170px;
-  height: 386px;
   margin: 94px 215px;
 }
 .list-duties {
@@ -172,7 +169,6 @@
 /* NASZ ZESPÓŁ */
 .container-team {
   width: 1600px;
-  height: 648px;
 }
 .team {
   font-family: "Roboto";
@@ -240,8 +236,7 @@
   background-color: rgba(33, 150, 243, 1);
 }
 .portfolio-menu-container {
-  height: 1360px;
-  width: 1180px;
+  width: 1200px;
   left: 215px;
   top: 174px;
   margin-top: 94px;

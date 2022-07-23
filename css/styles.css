@@ -101,6 +101,9 @@
   color: #757575;
   text-decoration: none;
 }
+.nav-phone:hover {
+  color: rgba(33, 150, 243, 1);
+}
 .motto {
   font-family: "Roboto";
   font-style: normal;
@@ -398,6 +401,9 @@
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
+.nav-mail-footer:hover {
+  color: rgba(33, 150, 243, 1);
+}
 .mail-phone-footer {
   padding-top: 9px;
 }
@@ -410,6 +416,9 @@
   font-size: 14px;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
+}
+.nav-phone-footer:hover {
+  color: rgba(33, 150, 243, 1);
 }
 .adress-footer {
   font-family: Roboto;
